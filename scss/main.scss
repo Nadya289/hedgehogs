@@ -1,0 +1,96 @@
+.main-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -320px;
+}
+.main-item{
+  background: url('../img/main/left_fon.svg') no-repeat center center/cover;
+  display: flex;
+
+  height: 397px;
+  max-width: 570px;
+  width: 40%;
+  margin: 0 18px 0;
+}
+.main-item__first{
+  background: url('../img/main/fon_left.svg') no-repeat center center/cover;
+}
+.main-item__content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 62px;
+
+}
+.main-item__img{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 70%;
+  position: relative;
+
+}
+.main-item__img img{
+  margin-left: -110px;
+  margin-top: -45px;
+}
+.main-item__content{
+  width: 50%;
+
+}
+.main-item__title{
+  color: #195557;
+  font-size: 40px;
+  font-family: $cormorantFont;
+  font-size: 40px;
+  line-height: 48px;
+}
+.main-item__sale{
+  width: 68px;
+  height: 36px;
+  background-color: #70908B;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6px;
+  font-family: $relewayFont;
+  font-weight: 700;
+  position: relative;
+  bottom: 5px;
+  left: -27px;
+}
+.main-item__sale p{
+  margin-bottom: 10px;
+}
+.main-item__text{
+  font-family: $relewayFont;
+  font-size: 14px;
+  left: 22px;
+  overflow: visible;
+  padding-bottom:  99px;
+}
+.main-item__old-price{
+  color: #C2CCCA;
+  text-decoration:line-through;
+  font-size: 20px;
+  font-family: $cormorantFont;
+  font-weight: 400;
+}
+.main-item__new-price{
+  font-family: $cormorantFont;
+  font-size: 40px;
+  font-weight: 700;
+  color: #195557;
+  margin-bottom: 58px;
+}
+
+.logo-i{
+  position: absolute;
+  right: 80px;
+  top: 21px;
+}
+.logo-plus{
+  position: absolute;
+  top: 365px;
+  right: 50px;
+}
