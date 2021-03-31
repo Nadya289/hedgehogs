@@ -1,0 +1,86 @@
+.contact-form{
+  width:100%;
+  max-width:1200px;
+  margin: 91px auto 0;
+}
+.contsct-form__inner{
+    width: 1197px;
+    height: 484px;
+    background-color: rgba(234, 238, 239, 1);
+    border-radius: 15px;
+    margin-bottom: 68px;
+}
+.contact-form__title{
+    font-size: 45px;
+    font-family: $cormorantFont;
+    color:$colorGreen;
+    text-align: center;
+    padding-top: 39px;
+}
+#btn-min{
+    width: 199px;
+    background-color: #fff;
+    color: $colorGreen;
+    font-size: 14px;
+    border:  3px solid rgba(112, 144, 139, 1);
+    font-family: $cormorantFont;
+    margin: 30px 7px 0 7px;
+}
+#btn-min:hover{
+    background-color: rgba(112, 144, 139, 1);
+    color:#fff;
+}
+.contact-form__common{
+    display: flex;
+
+    justify-content: center;
+
+}
+.contact-form__radio{
+    display: flex;
+    padding-top: 40px;
+    padding-right: 20px;
+
+}
+
+.radio-group{
+    margin-left: 53px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: $cormorantFont;
+    color: $colorGreen;
+}
+.radio-group p{
+    padding-bottom: 14px;
+}
+.contact-form__inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 49px 0px 49px;
+    width:100%;
+}
+.contact-form__text{
+    width: 352px;
+    height: 62px;
+    color: rgba(25, 85, 87, 1);
+    border-radius: 7px;
+    font-family: $relewayFont;
+    font-size: 14px;
+    padding: 23px 0 23px 27px;
+    border:none;
+}
+.contact-form__comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 49px 79px 49px;
+}
+.contact-form__comments textarea{
+    width: 100%;
+    height: 108px;
+}
+.contact-form__comments .btn{
+    margin: 30px 100px;
+}

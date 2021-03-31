@@ -23,6 +23,11 @@
   color: #195557;
 }
 
+.btn__green:hover {
+  background: #70908B;
+  color: #fff;
+}
+
 header {
   background: url("../img/header/Fon.png") no-repeat center center/cover;
   height: 1356px;
@@ -310,4 +315,100 @@ ul {
   position: absolute;
   top: 365px;
   right: 50px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 1200px;
+  margin: 91px auto 0;
+}
+
+.contsct-form__inner {
+  width: 1197px;
+  height: 484px;
+  background-color: #eaeeef;
+  border-radius: 15px;
+  margin-bottom: 68px;
+}
+
+.contact-form__title {
+  font-size: 45px;
+  font-family: "Cormorant Infant", serif;
+  color: #195557;
+  text-align: center;
+  padding-top: 39px;
+}
+
+#btn-min {
+  width: 199px;
+  background-color: #fff;
+  color: #195557;
+  font-size: 14px;
+  border: 3px solid #70908b;
+  font-family: "Cormorant Infant", serif;
+  margin: 30px 7px 0 7px;
+}
+
+#btn-min:hover {
+  background-color: #70908b;
+  color: #fff;
+}
+
+.contact-form__common {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form__radio {
+  display: flex;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.radio-group {
+  margin-left: 53px;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Cormorant Infant", serif;
+  color: #195557;
+}
+
+.radio-group p {
+  padding-bottom: 14px;
+}
+
+.contact-form__inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 49px 0px 49px;
+  width: 100%;
+}
+
+.contact-form__text {
+  width: 352px;
+  height: 62px;
+  color: #195557;
+  border-radius: 7px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  padding: 23px 0 23px 27px;
+  border: none;
+}
+
+.contact-form__comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 49px 79px 49px;
+}
+
+.contact-form__comments textarea {
+  width: 100%;
+  height: 108px;
+}
+
+.contact-form__comments .btn {
+  margin: 30px 100px;
 }
