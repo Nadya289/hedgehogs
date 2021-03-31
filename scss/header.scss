@@ -83,6 +83,7 @@ font-family: $relewayFont;
   text-align: center;
   display: flex;
   flex-direction: column;
+
 }
 .header__title{
   color: #195557;
@@ -108,8 +109,9 @@ font-family: $relewayFont;
 .header__items{
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin-top: -140px;
 }
 .header__item{
   max-width: 191px;
@@ -152,4 +154,8 @@ font-family: $relewayFont;
 .icon-third{
   background: #70908B;
   border: 1px solid rgba(148, 175, 171, 1);
+}
+.header__img .img-left{
+  margin-left: -20px;
+  transform: rotate(-5deg);
 }

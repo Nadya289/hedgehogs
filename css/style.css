@@ -137,8 +137,9 @@ header {
 .header__items {
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin-top: -140px;
 }
 
 .header__item {
@@ -188,6 +189,11 @@ header {
 .icon-third {
   background: #70908B;
   border: 1px solid #94afab;
+}
+
+.header__img .img-left {
+  margin-left: -20px;
+  transform: rotate(-5deg);
 }
 
 * {
